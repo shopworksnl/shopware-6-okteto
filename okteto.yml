@@ -17,3 +17,6 @@ services:
       mountpath: "/var/www/html"
       environment:
           - HTTPS=on
+persistentVolume:
+  enabled: true
+  storageClass: standard
